@@ -7,7 +7,7 @@ char ssid[] = "Your SSID";
 char pass[] = "Your password";
 
 // Server details
-char server[] = "194.47.176.190"; // Replace with your server's IP address
+char server[] = "194.47.176.190"; // Replace with server IP address
 int port = 80; // Default HTTP port
 
 int status = WL_IDLE_STATUS;
@@ -40,8 +40,8 @@ void loop() {
     Serial.println("Connected to server!");
     
     // Generate random blood pressure values
-    systolicPressure = random(90, 140); // Example range: 100-140 mmHg
-    diastolicPressure = random(50, 90); // Example range: 60-90 mmHg
+    systolicPressure = random(90, 140); 
+    diastolicPressure = random(50, 90);
     Serial.println("Systolic Pressure: " + String(systolicPressure));
     Serial.println("Diastolic Pressure: " + String(diastolicPressure));
 
