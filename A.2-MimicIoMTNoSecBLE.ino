@@ -55,7 +55,7 @@ void loop() {
         Serial.println(input); // Output the value that was written
       }
       
-      delay(100); // Adjust delay as needed
+      delay(100); 
     }
     
     Serial.print("Disconnected from central: ");
