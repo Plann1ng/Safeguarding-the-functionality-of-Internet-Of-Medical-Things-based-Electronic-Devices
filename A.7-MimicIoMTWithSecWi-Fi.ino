@@ -3,8 +3,8 @@
 #include <Wi-FiNINA.h>
 
 // Network credentials
-char ssid[] = "ASUS_A0";         // your network SSID (name)
-char pass[] = "delivery_9265";   // your network password
+char ssid[] = "YOUR_SSID";         // your network SSID (name)
+char pass[] = "*************";   // your network password
 
 int status = WL_IDLE_STATUS;
 Wi-FiSSLClient client;
